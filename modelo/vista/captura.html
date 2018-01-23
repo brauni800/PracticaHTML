@@ -10,7 +10,42 @@
 				<tr><td>Apellido</td> <td width="100"></td></tr>
 				<tr><td>Edad</td> <td width="100"></td></tr>
 			</table>
+			<p/>
+			<form id="Personal">
+				<fieldset>
+					<legend>Datos Personales</legend>
+					<p>Nombre: <input type="text" id="nombre"></p>
+					<p>Apellidos: <input type="text" id="apellidos"></p>
+					<p>Edad: <input type="text" id="edad"></p>
+					<p>Clave: <input type="password" id="clave"></p>
+					<p>Sexo:</p>
+					<p><input type="checkbox" id="macho" value="m"> Macho </p>
+					<p><input type="checkbox" id="hembra" value="h"> Hembra </p>
+				</fieldset>
+				<fieldset>
+					<legend>Estudios</legend>
+					<p><input type="checkbox" id="bachiller"> Bachiller </p>
+					<p><input type="checkbox" id="licenciatura"> Licenciatura </p>
+					<p>Comentarios:</p>
+					<textarea name="Descripcion" cols="12" rows="4"></textarea>
+				</fieldset>
+				<fieldset>
+					<legend>Dirección</legend>
+					<p>Estado:</p>
+					<p>
+						<select name="estado">
+							<optgroup>
+								<option>Yucatán</option>
+								<option>Campeche</option>
+							</optgroup>
+						</select>
+					</p>
+				</fieldset>
+				<p>Foto: </p>
+				<input type="submit" value="guardar">
+			</form>
 		</div>
+		<br>
 		<div>
 			<a href="../../index.htm">Regresar</a>
 		</div>
