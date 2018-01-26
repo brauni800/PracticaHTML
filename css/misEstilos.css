@@ -1,0 +1,27 @@
+h1, div{
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+form fieldset{
+	text-align: center;
+}
+a{
+	color: #F0433A;
+}
+form{
+	width: 1100px;
+	font: normal bold 12px Verdana, Arial;
+}
+form label{
+	display: inline-block;
+	width: 150px;
+	margin-right: 100px;
+}
+form input{
+	display: inline-block;
+	width: 200px;
+	margin-bottom: 10px;
+}
+h1{
+	background: red;
+}
