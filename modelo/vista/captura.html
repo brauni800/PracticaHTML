@@ -7,23 +7,27 @@
 	<body>
 		<div>
 			<h1>Consulta de alumnos </h1>
-			<form id="Personal">
+			<p class="pEnlace">En esta pagina se presenta un formulario para la captura de alumnos</p>
+			<form id="Personal" action="" method="post" enctype="multipart/form-data" name="personal" id="personal">
 				<fieldset>
 					<legend>Datos Personales</legend>
-					<label>Nombre: <input type="text" id="nombre"></label>
-					<label>Apellidos: <input type="text" id="apellidos"></label>
-					<label>Edad: <input type="text" id="edad"></label>
-					<label>Clave: <input type="password" id="clave"></label><br>
-					<label>Sexo:</label><br>
-					<input type="checkbox" id="macho" value="m"> <label>Macho</label><br>
-					<input type="checkbox" id="hembra" value="h"> <label>Hembra</label>
+					<label>Nombre:</label>
+					<input type="text" id="nombre">
+					<label>Apellidos:</label>
+					<input type="text" id="apellidos">
+					<label>Edad:</label>
+					<input type="text" id="edad">
+					<label>Clave:</label>
+					<input type="password" id="clave">
+					<br>
+					Sexo: <br>
+					<input type="radio" id="macho" value="m"> <label>Macho</label>
+					<input type="radio" id="hembra" value="h"> <label>Hembra</label>
 				</fieldset>
 				<input type="submit" value="Guardar">
 			</form>
-		</div>
-		<br>
-		<div>
-			<a href="../../index.htm">Regresar</a>
+			<p id="pFinal">Gracias por capturar la informacion requerida</p>
+			<p class="pEnlace">A esta pagina le hace falta un enlace dpara regresar a la pagina principal</p>
 		</div>
 	</body>
 </html>
